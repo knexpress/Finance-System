@@ -2,8 +2,8 @@
 
 **Date:** January 11, 2025  
 **System:** KNEX Finance System  
-**Environment:** Staging  
-**API Base URL:** https://api-stg.epgl.ae
+**Environment:** Production  
+**API Base URL:** https://api.epgl.ae
 
 ---
 

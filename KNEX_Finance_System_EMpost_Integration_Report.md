@@ -722,7 +722,7 @@ Invoice Created
 
 ## Conclusion
 
-The KNEX Finance System has been successfully integrated with EMpost API in the staging environment. All core features are operational, and the integration has been tested and verified. The system is ready for production deployment after completing the necessary production environment setup and testing.
+The KNEX Finance System is now integrated with the EMpost production environment. All core features remain operational, the production credentials have been applied, and the system is live. Continue monitoring, but no additional deployment work is required.
 
 **Key Achievements:**
 - ✅ Complete EMpost integration
@@ -740,16 +740,16 @@ The KNEX Finance System has been successfully integrated with EMpost API in the 
 ### Environment Variables Required
 
 ```env
-# EMpost API Configuration
-EMPOST_API_BASE_URL=https://api-stg.epgl.ae
-EMPOST_CLIENT_ID=your-client-id
-EMPOST_CLIENT_SECRET=your-client-secret
+# EMpost API Configuration (Production)
+EMPOST_API_BASE_URL=https://api.epgl.ae
+EMPOST_CLIENT_ID=knx_idep_client
+EMPOST_CLIENT_SECRET=lGuXSTly1upwJz3JtJFRTN8axlKL0AJl
 
 # Database
 MONGODB_URI=your-mongodb-uri
 
 # Application
-NODE_ENV=staging
+NODE_ENV=production
 PORT=3000
 JWT_SECRET=your-jwt-secret
 ```

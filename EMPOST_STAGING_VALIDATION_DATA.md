@@ -1,8 +1,8 @@
-# EMpost Staging Validation Data
+# EMpost Production Validation Data
 
 ## 🎯 Quick Reference Summary
 
-**For EMpost Staging Validation:**
+**For EMpost Production Validation:**
 
 | Field | Value |
 |-------|-------|
@@ -15,7 +15,7 @@
 | **Currency** | AED |
 | **Delivery Type** | COD |
 
-**Use these values to search and validate in EMpost staging dashboard.**
+**Use these values to search and validate in the EMpost production dashboard.**
 
 ---
 
